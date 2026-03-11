@@ -1,4 +1,4 @@
-import herobg from "./video/herobg.mp4";
+
 import "../index.css";
 
 function Herosection() {
