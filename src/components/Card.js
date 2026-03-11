@@ -38,7 +38,7 @@ export default function Card({ url, linkx }) {
     return (
         <div ref={boxRef} className="cardx w-[70vw] lg:h-[60vh] rounded-2xl lg:sticky top-30p">
             <a href={linkx}>
-                <img className="rounded-2xl" src={url} />
+                <img className="rounded-2xl" src={url} alt="√" />
             </a>
         </div>
     );
