@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  background-color: violet;
+/* background-color: black; */
+  width: 100%;
+  overflow-x: hidden;
+  
+    
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blended-div {
+
+  overflow: hidden;
+  position: relative;
+
+  /* Mask for fading bottom */
+  -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+}
+
+.textimg{
+  background-image: url(./components/imgs/orange.png);
+  background-size: cover;
+  background-clip: text;
+  color: transparent
+}
+
+.textimg2{
+  background-image: url(./components/imgs/orange.png) ;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  filter: blur(30px);
+}
+
+.borderimg{
+   border: 3px solid transparent;
+  border-image: url(./components/imgs/orange.png) 30 round;
+  border-radius: 50%;
+
+}
+.borderimgtop{
+   border-top: 3px solid transparent;
+  border-image: url(./components/imgs/mix.png) 30 round;
+  border-radius: 50%;
+
+}
+.borderimgbottom{
+   border-bottom: 3px solid transparent;
+  border-image: url(./components/imgs/mix.png) 30 round;
+  border-radius: 50%;
+
+}
+.orangeimg{
+    background-image: url(./components/imgs/orange.png) ;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  filter: blur(40px);
+}
+.borderimgorange{
+   border: 3px solid transparent;
+  border-image: url(./components/imgs/orange.png) 30 round;
+  border-radius: 30%;
+
+}
