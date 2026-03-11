@@ -31,7 +31,7 @@ export default function Ourservices() {
     },
     {
       title: "VIDEO EDITING",
-      src: "harry.mp4",
+      src: "harry1.mp4",
       type: "video",
     },
     {
