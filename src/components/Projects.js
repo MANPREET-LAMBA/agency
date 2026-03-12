@@ -3,6 +3,11 @@ import Card from "./Card";
 export default function Project() {
 
   const data = [
+    
+    {
+      url: "wakeup.png",
+      link: "https://wakeupskincare.com/",
+    },
     {
       url: "pinec.png",
       link: "https://bridege-frontend.vercel.app/",
