@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <h2 className="text-2xl font-bold text-orange-500 mb-4">
-            YourBrand
+            ManpreetDev
           </h2>
 
           <p className="text-gray-400 text-sm leading-relaxed">
